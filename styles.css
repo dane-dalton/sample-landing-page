@@ -13,3 +13,29 @@ ul {
 a {
     text-decoration: none;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header ul {
+    display: flex;
+    gap: 16px;
+}
+
+.header a {
+    color: #E5E7EB;
+}
