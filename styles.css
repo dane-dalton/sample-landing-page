@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Helvetica", sans-serif;
 }
 
 ul {
@@ -71,14 +72,15 @@ body {
 }
 
 .title-box a {
+    font-weight: bold;
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 5px;
-    padding: 5px 15px;
+    padding: 8px 16px;
 }
 
 .c-1 img {
-    width: 400px;
+    width: 300px;
 }
 
 .c-2 {
@@ -87,7 +89,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 32px;
-    padding: 32px 0;
+    padding: 32px 190px;
 }
 
 .info-title {
@@ -110,4 +112,64 @@ body {
     width: 150px;
     border: 4px solid #3882F6;
     border-radius: 10px;
+}
+
+.c-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 230px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quotee {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.c-4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 64px 190px;
+    padding: 32px 0;
+    background-color: #3882F6;
+    border-radius: 5px;
+    
+}
+
+.call-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.call-sub-text {
+    font-size: 14px;
+    color:#E5E7EB;
+}
+
+.c-4 a {
+    font-size: 14px;
+    font-weight: bold;
+    color:#F9FAF8;
+    padding: 8px 16px;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 32px;
+    font-size: 12px;
+    font-weight: 100;
 }
